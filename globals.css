@@ -1,0 +1,33 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900;
+}
+
+canvas {
+  touch-action: none;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+
+.bg-primary {
+  @apply bg-blue-500;
+}
+
+.text-primary {
+  @apply text-blue-500;
+}
+
+.btn {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.game-over {
+  @apply bg-black bg-opacity-75;
+}
